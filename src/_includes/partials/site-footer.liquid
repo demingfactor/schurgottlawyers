@@ -1,22 +1,27 @@
-<footer class="flex justify-center bg-gray-600 text-white">
+<footer class="flex justify-center bg-woody-brown-500 text-white px-1 sm:px-6 lg:px-8">
     <div class="max-w-screen-2xl w-full">
-        <div class="flex flex-wrap gap-8 p-4">
+        <div class="flex flex-wrap gap-8 m-4">
             {% assign nav = navigation.navtable %}
             {% for section in nav %}
-                <div class="flex flex-col">
-                    <h3 class="font-bold">{{ section.title }}</h3>
-                    {% for links in section.links %}
-                        <a href="{{ links.url }}">{{ links.text }}</a>
+                <div class="flex flex-col gap-1">
+                    <h3 class="font-bold pl-6 pb-2">{{ section.title }}</h3>
+                    {% for link in section.links %}
+                    <div class="flex items-center gap-2">
+                        {% if link.icon != "" and link.icon %}
+                            <img width="{{ section.icon-height }}" height="{{ section.icon-height }}" src="{{ link.icon }}">
+                        {% endif %}
+                        <a href="{{ link.url }}">{{ link.text }}</a>
+                    </div>
                     {% endfor %}
                 </div>
             {% endfor %}
         </div>
-        <div class="flex flex-col sm:flex-row justify-between items-center w-full p-4">
-            <a class="italic flex gap-1" href="{{site.general.legal-info}}">{{site.general.copyright}}</a>
-            <div>
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end m-4 gap-2">
+            <a class="flex flex-col gap-1" href="{{site.general.legal-info}}">{{site.general.copyright}}</a>
+            <div class="flex">
                 {% for link in navigation.footer %}
                     <a href="{{link.url}}">{{link.text}}</a>
-                    {% assign lastlink = navigation.footer | last%}
+                    {% assign lastlink = navigation.footer | last %}
                     {% unless link == lastlink %}
                         <span>|</span>
                     {% endunless %}

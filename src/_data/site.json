@@ -3,17 +3,17 @@
     {
       "name": "Schurgott & Co Lawyers",
       "org": "Schurgott Lawyers",
-      "title": "<strong>Schurgott & Co</strong> Lawyers",
-      "url": "https://demingfactor.com/starter",
-      "logo": "https://res.cloudinary.com/moxvallix/image/upload/v1626781948/SteamDeck/steamdeck-logo_rpbpyz.svg",
-      "copyright": "<strong>CC BY-SA 4.0</strong> DemingFactor Studio",
+      "title": "",
+      "url": "http://www.schurgottlawyers.com.au",
+      "logo": "https://res.cloudinary.com/schurgott/image/upload/v1644196088/optimised/schurgottandco-optimised_r4w65q.svg",
+      "copyright": "Liability limited by a scheme approved under Professional Standards Legislation.<br><br><em>&copy; Schurgott and Co Lawyers</em>",
       "legal-info": "/legal/"
     },
   "contact":
     {
-      "general": "hello@example.com",
-      "webmaster": "online@example.com",
-      "security": "security@example.com",
-      "privacy": "privacy@example.com"
+      "general": "andrew@schurgottlawyers.com.au",
+      "webmaster": "andrew@schurgottlawyers.com.au",
+      "security": "andrew@schurgottlawyers.com.au",
+      "privacy": "andrew@schurgottlawyers.com.au"
     }
 }

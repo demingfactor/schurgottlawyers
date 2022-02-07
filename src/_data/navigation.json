@@ -1,74 +1,72 @@
 {
   "header": [
     {
-      "text": "Home",
-      "url": "/"
+      "text": "Sydney: (02) 8076 6031",
+      "url": "tel:+61280766031"
     },
     {
-      "text": "About",
-      "url": "/about/"
-    },
-    {
-      "text": "Articles",
-      "url": "/articles/"
+      "text": "Adelaide: (08) 7129 4407",
+      "url": "tel:+61871294407"
     }
   ],
   "navtable": [
     {
-      "title": "DemingFactor Starter",
+      "title": "Sydney",
+      "icon-height": 16,
       "links": [
         {
-          "text": "Website",
-          "url": "https://demingfactor.com"
+          "text": "Level 21, 133 Castlereagh Street, Sydney, NSW 2000",
+          "url": "https://www.google.com.au/maps/dir//Lvl+21%2F133+Castlereagh+St,+Sydney+NSW+2000/@-33.8715262,151.206851,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6b12ae3e343f37cb:0x23ab965ac05a4dd2!2m2!1d151.2090397!2d-33.8715262?hl=en",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/geo-alt-fill-optimised_kwomhi.svg"
         },
         {
-          "text": "Github",
-          "url": "https://github.com/demingfactor"
+          "text": "(02) 8076 6031",
+          "url": "tel:+61280766031",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/telephone-fill-optimised_pvlenk.svg"
         },
         {
-          "text": "Case Studies",
-          "url": "https://demingfactor.com/case-study-cantina-rotino/"
+          "text": "(08) 8232 4446",
+          "url": "tel:+61882324446",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/printer-fill-optimised_dpcvdk.svg"
         },
         {
-          "text": "Other",
-          "url": "https://demingfactor.com/"
+          "text": "ken@schurgottlawyers.com.au",
+          "url": "mailto:ken@schurgottlawyers.com.au",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/envelope-fill-optimised_jdnirn.svg"
         }
       ]
     },
     {
-      "title": "Extra",
+      "title": "Adelaide",
+      "icon-height": 16,
       "links": [
         {
-          "text": "Extra One",
-          "url": "/"
+          "text": "Level 3, 97 Pirie Street, Adelaide, SA 5000",
+          "url": "https://www.google.com.au/maps/dir//Level+3+Suite+A%2F97+Pirie+St,+Adelaide+SA+5000/@-34.9258854,138.5683631,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6ab0ced729a55555:0x36c1d406e760451!2m2!1d138.6033824!2d-34.9258904?hl=en",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/geo-alt-fill-optimised_kwomhi.svg"
         },
         {
-          "text": "Extra Two",
-          "url": "/"
+          "text": "(08) 7129 4407",
+          "url": "tel:+61871294407",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/telephone-fill-optimised_pvlenk.svg"
         },
         {
-          "text": "Extra Three",
-          "url": "/"
+          "text": "(08) 8232 4446",
+          "url": "tel:+61882324446",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/printer-fill-optimised_dpcvdk.svg"
         },
         {
-          "text": "Extra Four",
-          "url": "/"
+          "text": "ken@schurgottlawyers.com.au",
+          "url": "mailto:ken@schurgottlawyers.com.au",
+          "icon": "https://res.cloudinary.com/schurgott/image/upload/v1644204671/optimised/envelope-fill-optimised_jdnirn.svg"
         }
       ]
     }
   ],
   "footer": [
     {
-      "text": "Twitter",
-      "url": "/"
-    },
-    {
-      "text": "Insta",
-      "url": "/"
-    },
-    {
-      "text": "Reddit",
-      "url": "/"
+      "text": "Privacy Policy",
+      "url": "/privacy/"
     }
   ]
 }
