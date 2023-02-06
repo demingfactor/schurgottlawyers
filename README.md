@@ -22,7 +22,7 @@ the dependencies and validate that everything is running correctly.
 npm run dev
 ```
 
-Open http://localhost:8080 to view it in the browser.
+Open https://localhost:8080 to view it in the browser.
 
 The page will reload if you make file changes.
 
@@ -41,7 +41,7 @@ npm run build
 npm run serve
 ```
 
-Open http://localhost:8080 to view it in the browser.
+Open https://localhost:8080 to view it in the browser.
 
 Your code is now ready to be deployed!
 
